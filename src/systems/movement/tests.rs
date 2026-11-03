@@ -413,7 +413,7 @@ fn test_movement_target_bias() {
     let mut world = World::new();
 
     // Create some target entities in different quadrants
-    let targets = vec![
+    let targets = [
         (
             Position { x: 20.0, y: 20.0 },
             Size { radius: 5.0 },
